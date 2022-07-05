@@ -1,11 +1,10 @@
 #include "main.h"
 
 /**
- * _putchar -writes the string _putchar to stdout
+ * main - Entry point 
  * @_putchar: The string to print
  *
- * Return: On success 1.
- * On error, -1 is returned
+ * Return: On success 0
  */
 int main(void)
 {
