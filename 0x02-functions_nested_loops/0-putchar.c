@@ -1,8 +1,7 @@
 #include "main.h"
 
 /**
- * main - Entry point 
- * @_putchar: The string to print
+ * main - Entry point
  *
  * Return: On success 0
  */
