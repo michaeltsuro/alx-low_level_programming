@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * int_isupper - print 1 if its uppercase 0 otherwise
+ * _isupper - print 1 if its uppercase 0 otherwise
  * Return: 1 or 0
  */
 
