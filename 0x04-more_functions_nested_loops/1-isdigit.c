@@ -2,6 +2,7 @@
 
 /**
  * _isdigit - print 1 or 0
+ * @c: read the integer
  * Return: 1 or 0
  */
 int _isdigit(int c)
