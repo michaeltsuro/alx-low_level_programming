@@ -2,7 +2,6 @@
 
 /**
  * print_most_numbers - prints numbers from zero to nine
- * Return: number line from 0-9
  */
 void print_most_numbers(void)
 {
