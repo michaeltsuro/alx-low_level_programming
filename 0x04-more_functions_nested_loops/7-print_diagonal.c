@@ -1,27 +1,24 @@
 #include "main.h"
 
 /**
- * print_diagonal - prints newline and append \$ at end
- * @n: number of newlines
+ * print_diagonal - diagonal lines made of backslashes
+ * @n: number of \ to be printed
+ * Return: 0
  */
-void print_diagonal(int n)
-{
-	int j;
-	char blank[11];
 
-	if (n > 0)
+void print_diagonal(int n)
+
+{
+	int a, b;
+	for (b = 1; b <= n; b++)
 	{
-		for (j = 1; j <= n; j++)
-		{
-			_putchar(blank[j]);
-			
-			_putchar('\\');
-			_putchar('\n');
-		}
+		for (a = 1; a < b; a++)
+			_putchar(' ');
+		_putchar('\\');
+		_putchar('\n');
+
 	}
-	else
-	{
-		_putchar(' ');
-	}
-	_putchar('\n');
+	if (n < 1)
+		_putchar('\n');
+
 }
