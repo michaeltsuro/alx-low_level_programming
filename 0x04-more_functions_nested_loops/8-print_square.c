@@ -1,20 +1,24 @@
 #include "main.h"
 
 /**
- * print_square - print # with size rows and size columns
- * @size: read integer size
+ * print_square - print a square of input size
+ * @size: demensions of square
+ * Return: nothing
  */
-void print_square(int size)
-{
-	int i, j;
 
-	for (i = 1; j <= size; j++)
+void print_square(int size)
+
+{
+
+	int x, y;
+	for (y = 0; y < size; y++)
+
 	{
-		for(i = 1; i <= size; i++)
-		{
+		for (x = 0; x < size; x++)
 			_putchar('#');
-		}
 		_putchar('\n');
 	}
-	_putchar('\n');
+	if (size < 1)
+		_putchar('\n');
+
 }
